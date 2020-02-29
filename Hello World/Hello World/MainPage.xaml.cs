@@ -25,10 +25,14 @@ namespace Hello_World
         public MainPage()
         {
             this.InitializeComponent();
-            Hello();
+            Greetings();
+            do
+            {
+
+            } while (true);
         }
 
-        public void Hello()
+        public void Greetings()
         {
             //System.Diagnostics.Debug.WriteLine("Hello!");
             int a = 1;
